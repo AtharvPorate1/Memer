@@ -1,0 +1,135 @@
+/* app.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #222; /* Dark background color */
+  color: #fff; /* Light text color */
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* MemesApp.css */
+.memes-app {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Occupy full height of viewport */
+}
+
+.meme-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  width: 50%; /* Occupy 50% width of the screen */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.meme-container {
+  width: 100%;
+  max-width: 300px;
+  overflow: hidden;
+}
+
+.meme-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.meme-actions {
+  margin-top: 12px;
+}
+
+.meme-actions button {
+  padding: 8px 16px;
+  margin-right: 8px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.meme-actions button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Liked Memes */
+.liked-memes {
+  margin-top: 32px;
+}
+
+.liked-memes h2 {
+  margin-bottom: 16px;
+}
+
+.liked-memes ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.liked-memes li {
+  margin-right: 16px;
+  margin-bottom: 16px;
+}
+
+.liked-memes img {
+  max-width: 100px;
+  border-radius: 8px;
+}
+/* app.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #222; /* Dark background color */
+  color: #fff; /* Light text color */
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.footer {
+  margin-top: 32px;
+  text-align: center;
+}
+
+.social-icons {
+  margin-bottom: 10px;
+}
+
+.social-icons a {
+  color: #fff;
+  font-size: 24px;
+  margin-right: 10px;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #007bff; /* Change color on hover */
+}
+
+.website-link a {
+  color: #007bff; /* Link color */
+  text-decoration: none;
+}
+
+.website-link a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+

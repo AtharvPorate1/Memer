@@ -1,0 +1,109 @@
+/* MemeCard.css */
+.meme-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .meme-card img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
+  .meme-actions {
+    margin-top: 12px;
+  }
+  
+  .meme-actions button {
+    padding: 8px 16px;
+    margin-right: 8px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .meme-actions button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  /* MemesApp.css */
+  .memes-app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .liked-memes {
+    margin-top: 32px;
+  }
+  
+  .liked-memes h2 {
+    margin-bottom: 16px;
+  }
+  
+  .liked-memes ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .liked-memes li {
+    margin-right: 16px;
+    margin-bottom: 16px;
+  }
+  
+  .liked-memes img {
+    max-width: 100px;
+    border-radius: 8px;
+  }
+
+/* MemeCard.css */
+.meme-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex; /* Center the meme card content */
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .meme-container {
+    width: 100%; /* Allow the container to fill the meme card */
+    max-width: 300px; /* Set a maximum width */
+    overflow: hidden; /* Hide any overflow */
+  }
+  
+  .meme-card img {
+    width: 100%; /* Ensure the image fills its container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px;
+  }
+  
+  .meme-actions {
+    margin-top: 12px;
+  }
+  
+  .meme-actions button {
+    padding: 8px 16px;
+    margin-right: 8px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .meme-actions button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  
